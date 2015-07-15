@@ -5,6 +5,7 @@ import (
 	"flag"
 	"io/ioutil"
 	"net/http"
+	"sort"
 	"strings"
 
 	"golang.org/x/tools/imports"
@@ -45,7 +46,17 @@ func main() {
 					var emojis = Emojis{
 					`
 
-	for n, e := range emojis {
+	emojiNames := []string{}
+
+	for n, _ := range emojis {
+		emojiNames = append(emojiNames, n)
+	}
+
+	sort.Strings(emojiNames)
+
+	for _, n := range emojiNames {
+		e := emojis[n]
+
 		var ks string
 
 		if len(e.Keywords) > 0 {
@@ -62,15 +73,15 @@ func main() {
 
 	src += "var emojiReplacer = strings.NewReplacer(\n"
 
-	for n, e := range emojis {
-		src += `":` + n + `:", "` + e.Char + "\",\n"
+	for _, n := range emojiNames {
+		src += `":` + n + `:", "` + emojis[n].Char + "\",\n"
 	}
 	src += ")\n\n"
 
 	src += "var emojiPaddedReplacer = strings.NewReplacer(\n"
 
-	for n, e := range emojis {
-		src += `":` + n + `:", "` + e.Char + " \",\n"
+	for _, n := range emojiNames {
+		src += `":` + n + `:", "` + emojis[n].Char + " \",\n"
 	}
 	src += ")\n\n"
 
