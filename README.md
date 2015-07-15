@@ -4,7 +4,7 @@
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/peterhellberg/emojilib)
 [![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/peterhellberg/emojilib#license-mit)
 
-The [Emoji keyword library](https://github.com/muan/emojilib) by @muan ported to Go. (using `go generate`)
+The [Emoji keyword library](https://github.com/muan/emojilib) by [@muan](https://github.com/muan/) ported to Go. (using `go generate`)
 
 ## Installation
 
