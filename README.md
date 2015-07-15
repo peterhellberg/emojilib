@@ -35,9 +35,7 @@ $ go generate
 This will download the latest version of [emojis.json](https://raw.githubusercontent.com/muan/emojilib/master/emojis.json)
 and generate a new version of `generated.go`
 
-### Dependencies for the generator
-
-You need to have the [golang.org/x/tools/imports](https://golang.org/x/tools/imports) package installed in order to run the generator.
+_You’ll need to have the_ [golang.org/x/tools/imports](https://golang.org/x/tools/imports) _package installed in order to run the generator._
 
 ## License (MIT)
 
