@@ -44,6 +44,9 @@ type Emoji struct {
 // ErrUnknownEmoji is returned from Find if provided with a unknown emoji name
 var ErrUnknownEmoji = errors.New("unknown emoji")
 
+// ErrUnknownKeyword is returned from Keyword if provided with a unknown keyword
+var ErrUnknownKeyword = errors.New("unknown keyword")
+
 // Find returns an Emoji if provided with a known name
 func Find(n string) (Emoji, error) {
 	if e, ok := emojis[n]; ok {
@@ -51,6 +54,21 @@ func Find(n string) (Emoji, error) {
 	}
 
 	return Emoji{}, ErrUnknownEmoji
+}
+
+// Keyword returns Emojis for the given keyword
+func Keyword(k string) ([]Emoji, error) {
+	if names, ok := keywordLookup[k]; ok {
+		es := []Emoji{}
+
+		for _, n := range names {
+			es = append(es, emojis[n])
+		}
+
+		return es, nil
+	}
+
+	return []Emoji{}, ErrUnknownKeyword
 }
 
 // All returns all the emojis

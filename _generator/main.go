@@ -45,8 +45,11 @@ func main() {
 
 					var emojis = Emojis{
 					`
-
-	emojiNames := []string{}
+	var (
+		emojiNames     = []string{}
+		keywordNames   = []string{}
+		keywordBuckets = map[string][]string{}
+	)
 
 	for n, _ := range emojis {
 		emojiNames = append(emojiNames, n)
@@ -61,6 +64,10 @@ func main() {
 
 		if len(e.Keywords) > 0 {
 			ks = `"` + strings.Join(e.Keywords, `","`) + `"`
+
+			for _, k := range e.Keywords {
+				keywordBuckets[k] = append(keywordBuckets[k], n)
+			}
 		}
 
 		src += `"` + n + `": Emoji{` + "\n" +
@@ -68,6 +75,19 @@ func main() {
 			`Char: "` + e.Char + "\",\n" +
 			`Category: "` + e.Category + "\",\n" +
 			"},\n"
+	}
+	src += "}\n\n"
+
+	for kn, _ := range keywordBuckets {
+		keywordNames = append(keywordNames, kn)
+	}
+
+	sort.Strings(keywordNames)
+
+	src += "var keywordLookup = map[string][]string{\n"
+
+	for _, n := range keywordNames {
+		src += `"` + n + "\": []string{\n \"" + strings.Join(keywordBuckets[n], "\",\n \"") + "\",\n},\n"
 	}
 	src += "}\n\n"
 

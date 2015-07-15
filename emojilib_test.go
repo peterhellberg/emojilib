@@ -25,6 +25,30 @@ func TestFind(t *testing.T) {
 	}
 }
 
+func TestKeyword(t *testing.T) {
+	for _, tt := range []struct {
+		in   string
+		want string
+		err  error
+	}{
+		{"unknown", "", ErrUnknownKeyword},
+		{"affection", "💙", nil},
+		{"911", "🚑", nil},
+		{"beef", "🐮", nil},
+	} {
+		got, err := Keyword(tt.in)
+		if err != tt.err {
+			t.Errorf("unexpected error")
+		}
+
+		if len(got) > 0 {
+			if got[0].Char != tt.want {
+				t.Errorf("Keyword(%q) = %q, nil, want %q, nil", tt.in, got[0].Char, tt.want)
+			}
+		}
+	}
+}
+
 func TestAll(t *testing.T) {
 	all := All()
 
