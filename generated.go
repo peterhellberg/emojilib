@@ -1399,7 +1399,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"eyes": Emoji{
-		Keywords: []string{"look", "watch", "stalk", "peek"},
+		Keywords: []string{"look", "watch", "stalk", "peek", "see"},
 		Char:     "👀",
 		Category: "people",
 	},
@@ -8617,6 +8617,9 @@ var keywordLookup = map[string][]string{
 		"lock_with_ink_pen",
 		"no_entry",
 		"unlock",
+	},
+	"see": []string{
+		"eyes",
 	},
 	"serious": []string{
 		"unamused",
