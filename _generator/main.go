@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"sort"
 	"strings"
+	"time"
 
 	"golang.org/x/tools/imports"
 )
@@ -40,6 +41,11 @@ func main() {
 					//
 					// Update it by running: go generate
 					//
+					`
+
+	generatedAt := time.Now().UTC().Format("2006-01-02 15:04:05 -0700")
+
+	src += "// Generated at: " + generatedAt + `
 
 					package emojilib
 

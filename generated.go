@@ -2,6 +2,7 @@
 //
 // Update it by running: go generate
 //
+// Generated at: 2015-07-25 11:09:07 +0000
 
 package emojilib
 
