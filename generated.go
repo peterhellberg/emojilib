@@ -19,7 +19,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"100": Emoji{
-		Keywords: []string{"score", "perfect", "numbers", "century", "exam", "quiz", "test", "pass"},
+		Keywords: []string{"score", "perfect", "numbers", "century", "exam", "quiz", "test", "pass", "hundred"},
 		Char:     "💯",
 		Category: "objectsandsymbols",
 	},
@@ -374,7 +374,7 @@ var emojis = Emojis{
 		Category: "foodanddrink",
 	},
 	"beetle": Emoji{
-		Keywords: []string{"insect", "nature", "bug"},
+		Keywords: []string{"animal", "insect", "nature", "bug"},
 		Char:     "🐞",
 		Category: "nature",
 	},
@@ -464,7 +464,7 @@ var emojis = Emojis{
 		Category: "nature",
 	},
 	"blowfish": Emoji{
-		Keywords: []string{"nature", "food", "sea", "ocean"},
+		Keywords: []string{"animal", "nature", "food", "sea", "ocean"},
 		Char:     "🐡",
 		Category: "nature",
 	},
@@ -584,12 +584,12 @@ var emojis = Emojis{
 		Category: "celebration",
 	},
 	"bug": Emoji{
-		Keywords: []string{"insect", "nature", "worm"},
+		Keywords: []string{"animal", "insect", "nature", "worm"},
 		Char:     "🐛",
 		Category: "nature",
 	},
 	"bulb": Emoji{
-		Keywords: []string{"light", "electricity"},
+		Keywords: []string{"light", "electricity", "idea"},
 		Char:     "💡",
 		Category: "objectsandsymbols",
 	},
@@ -969,7 +969,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"computer": Emoji{
-		Keywords: []string{"tech", "laptop"},
+		Keywords: []string{"tech", "laptop", "screen", "display", "monitor"},
 		Char:     "💻",
 		Category: "objectsandsymbols",
 	},
@@ -1094,7 +1094,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"crystal_ball": Emoji{
-		Keywords: []string{"disco", "party", "magic", "circus"},
+		Keywords: []string{"disco", "party", "magic", "circus", "fortune_teller"},
 		Char:     "🔮",
 		Category: "objectsandsymbols",
 	},
@@ -2374,7 +2374,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"mens": Emoji{
-		Keywords: []string{"toilet", "restroom", "wc", "blue-square", "gender"},
+		Keywords: []string{"toilet", "restroom", "wc", "blue-square", "gender", "male"},
 		Char:     "🚹",
 		Category: "objectsandsymbols",
 	},
@@ -3949,7 +3949,7 @@ var emojis = Emojis{
 		Category: "nature",
 	},
 	"tv": Emoji{
-		Keywords: []string{"technology", "program", "oldschool", "show"},
+		Keywords: []string{"technology", "program", "oldschool", "show", "television"},
 		Char:     "📺",
 		Category: "objectsandsymbols",
 	},
@@ -4533,8 +4533,11 @@ var keywordLookup = map[string][]string{
 		"baby_chick",
 		"bear",
 		"bee",
+		"beetle",
 		"bird",
+		"blowfish",
 		"boar",
+		"bug",
 		"camel",
 		"cat",
 		"cat2",
@@ -5732,6 +5735,9 @@ var keywordLookup = map[string][]string{
 		"-1",
 		"fu",
 	},
+	"display": []string{
+		"computer",
+	},
 	"divide": []string{
 		"heavy_division_sign",
 		"u5272",
@@ -6363,6 +6369,9 @@ var keywordLookup = map[string][]string{
 		"bowtie",
 		"necktie",
 	},
+	"fortune_teller": []string{
+		"crystal_ball",
+	},
 	"forward": []string{
 		"arrow_up_small",
 	},
@@ -6817,6 +6826,9 @@ var keywordLookup = map[string][]string{
 		"camel",
 		"dromedary_camel",
 	},
+	"hundred": []string{
+		"100",
+	},
 	"hurt": []string{
 		"goberserk",
 	},
@@ -6831,6 +6843,9 @@ var keywordLookup = map[string][]string{
 		"white_medium_small_square",
 		"white_medium_square",
 		"white_small_square",
+	},
+	"idea": []string{
+		"bulb",
 	},
 	"ikea": []string{
 		"wrench",
@@ -7356,6 +7371,7 @@ var keywordLookup = map[string][]string{
 		"man_with_gua_pi_mao",
 		"man_with_turban",
 		"mans_shoe",
+		"mens",
 		"older_man",
 		"person_with_blond_hair",
 		"santa",
@@ -7475,6 +7491,9 @@ var keywordLookup = map[string][]string{
 		"pound",
 		"purse",
 		"yen",
+	},
+	"monitor": []string{
+		"computer",
 	},
 	"monkey": []string{
 		"banana",
@@ -8583,6 +8602,9 @@ var keywordLookup = map[string][]string{
 	"scorpio": []string{
 		"scorpius",
 	},
+	"screen": []string{
+		"computer",
+	},
 	"scribble": []string{
 		"curly_loop",
 		"wavy_dash",
@@ -9204,6 +9226,9 @@ var keywordLookup = map[string][]string{
 	},
 	"telephone": []string{
 		"phone",
+	},
+	"television": []string{
+		"tv",
 	},
 	"terrified": []string{
 		"fearful",
