@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2015-07-25 11:09:07 +0000
+// Generated at: 2015-08-02 11:24:30 +0000
 
 package emojilib
 
@@ -550,9 +550,9 @@ var emojis = Emojis{
 		Category: "activity",
 	},
 	"bowtie": Emoji{
-		Keywords: []string{"face", "formal", "fashion", "suit", "classy", "custom_", "magic", "circus"},
+		Keywords: []string{"face", "formal", "fashion", "suit", "classy", "magic", "circus"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"boy": Emoji{
 		Keywords: []string{"man", "male", "guy", "teenager"},
@@ -1440,9 +1440,9 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"feelsgood": Emoji{
-		Keywords: []string{"custom_", "doom", "oldschool"},
+		Keywords: []string{"doom", "oldschool"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"feet": Emoji{
 		Keywords: []string{"animal", "tracking", "footprints", "dog", "cat", "pet", "paw_prints"},
@@ -1460,9 +1460,9 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"finnadie": Emoji{
-		Keywords: []string{"custom_", "doom", "oldschool"},
+		Keywords: []string{"doom", "oldschool"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"fire": Emoji{
 		Keywords: []string{"hot", "cook", "flame"},
@@ -1607,7 +1607,7 @@ var emojis = Emojis{
 	"fu": Emoji{
 		Keywords: []string{"fuck", "finger", "dislike", "thumbsdown", "disapprove", "no", "custom_"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"fuelpump": Emoji{
 		Keywords: []string{"gas station", "petroleum"},
@@ -1675,14 +1675,14 @@ var emojis = Emojis{
 		Category: "nature",
 	},
 	"goberserk": Emoji{
-		Keywords: []string{"custom_", "doom", "rage", "bloody", "hurt"},
+		Keywords: []string{"doom", "rage", "bloody", "hurt"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"godmode": Emoji{
-		Keywords: []string{"custom_", "doom"},
+		Keywords: []string{"doom", "oldschool"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"golf": Emoji{
 		Keywords: []string{"sports", "business", "flag", "hole", "summer"},
@@ -1957,7 +1957,7 @@ var emojis = Emojis{
 	"hurtrealbad": Emoji{
 		Keywords: []string{"mad", "injured", "doom", "oldschool", "custom_"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"hushed": Emoji{
 		Keywords: []string{"face", "woo", "shh"},
@@ -2088,6 +2088,11 @@ var emojis = Emojis{
 		Keywords: []string{"numbers", "10", "blue-square"},
 		Char:     "🔟",
 		Category: "objectsandsymbols",
+	},
+	"keys": Emoji{
+		Keywords: []string{},
+		Char:     "",
+		Category: "",
 	},
 	"kimono": Emoji{
 		Keywords: []string{"dress", "fashion", "women", "female", "japanese"},
@@ -2285,12 +2290,12 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"mag": Emoji{
-		Keywords: []string{"search", "zoom"},
+		Keywords: []string{"search", "zoom", "find", "detective"},
 		Char:     "🔍",
 		Category: "objectsandsymbols",
 	},
 	"mag_right": Emoji{
-		Keywords: []string{"search", "zoom"},
+		Keywords: []string{"search", "zoom", "find", "detective"},
 		Char:     "🔎",
 		Category: "objectsandsymbols",
 	},
@@ -2382,7 +2387,7 @@ var emojis = Emojis{
 	"metal": Emoji{
 		Keywords: []string{"fingers", "rocknroll", "concert", "band", "custom_"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"metro": Emoji{
 		Keywords: []string{"transportation", "blue-square", "mrt", "underground", "tube"},
@@ -2537,7 +2542,7 @@ var emojis = Emojis{
 	"neckbeard": Emoji{
 		Keywords: []string{"nerdy", "face", "custom_"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"necktie": Emoji{
 		Keywords: []string{"shirt", "suitup", "formal", "fashion", "cloth", "business"},
@@ -2682,7 +2687,7 @@ var emojis = Emojis{
 	"octocat": Emoji{
 		Keywords: []string{"animal", "octopus", "github", "custom_"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"octopus": Emoji{
 		Keywords: []string{"animal", "creature", "ocean", "sea", "nature", "beach"},
@@ -3075,24 +3080,24 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"rage1": Emoji{
-		Keywords: []string{"angry", "mad", "custom_", "hate", "despise"},
+		Keywords: []string{"angry", "mad", "hate", "despise"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"rage2": Emoji{
-		Keywords: []string{"angry", "mad", "custom_", "hate", "despise"},
+		Keywords: []string{"angry", "mad", "hate", "despise"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"rage3": Emoji{
-		Keywords: []string{"angry", "mad", "custom_", "hate", "despise"},
+		Keywords: []string{"angry", "mad", "hate", "despise"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"rage4": Emoji{
-		Keywords: []string{"angry", "mad", "custom_", "hate", "despise"},
+		Keywords: []string{"angry", "mad", "hate", "despise"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"railway_car": Emoji{
 		Keywords: []string{"transportation", "vehicle"},
@@ -3382,7 +3387,7 @@ var emojis = Emojis{
 	"shipit": Emoji{
 		Keywords: []string{"squirrel", "detective", "animal", "sherlock", "inspector", "custom_"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"shirt": Emoji{
 		Keywords: []string{"fashion", "cloth", "casual", "tshirt"},
@@ -3702,7 +3707,7 @@ var emojis = Emojis{
 	"suspect": Emoji{
 		Keywords: []string{"mad", "custom_"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"suspension_railway": Emoji{
 		Keywords: []string{"vehicle", "transportation"},
@@ -3912,7 +3917,7 @@ var emojis = Emojis{
 	"trollface": Emoji{
 		Keywords: []string{"internet", "meme", "custom_"},
 		Char:     "",
-		Category: "github",
+		Category: "_custom",
 	},
 	"trophy": Emoji{
 		Keywords: []string{"win", "award", "contest", "place", "ftw", "ceremony"},
@@ -3925,7 +3930,7 @@ var emojis = Emojis{
 		Category: "foodanddrink",
 	},
 	"tropical_fish": Emoji{
-		Keywords: []string{"animal", "swim", "ocean", "beach"},
+		Keywords: []string{"animal", "swim", "ocean", "beach", "nemo"},
 		Char:     "🐠",
 		Category: "nature",
 	},
@@ -5526,20 +5531,11 @@ var keywordLookup = map[string][]string{
 		"passport_control",
 	},
 	"custom_": []string{
-		"bowtie",
-		"feelsgood",
-		"finnadie",
 		"fu",
-		"goberserk",
-		"godmode",
 		"hurtrealbad",
 		"metal",
 		"neckbeard",
 		"octocat",
-		"rage1",
-		"rage2",
-		"rage3",
-		"rage4",
 		"shipit",
 		"suspect",
 		"trollface",
@@ -5653,6 +5649,8 @@ var keywordLookup = map[string][]string{
 		"koko",
 	},
 	"detective": []string{
+		"mag",
+		"mag_right",
 		"shipit",
 	},
 	"devil": []string{
@@ -6216,6 +6214,10 @@ var keywordLookup = map[string][]string{
 		"clapper",
 		"movie_camera",
 		"video_camera",
+	},
+	"find": []string{
+		"mag",
+		"mag_right",
 	},
 	"finger": []string{
 		"fu",
@@ -7711,6 +7713,9 @@ var keywordLookup = map[string][]string{
 	"needle": []string{
 		"syringe",
 	},
+	"nemo": []string{
+		"tropical_fish",
+	},
 	"nerd": []string{
 		"eyeglasses",
 	},
@@ -7859,6 +7864,7 @@ var keywordLookup = map[string][]string{
 		"feelsgood",
 		"finnadie",
 		"floppy_disk",
+		"godmode",
 		"hourglass",
 		"hourglass_flowing_sand",
 		"hurtrealbad",
@@ -10307,6 +10313,7 @@ var emojiReplacer = strings.NewReplacer(
 	":jp:", "🇯🇵",
 	":key:", "🔑",
 	":keycap_ten:", "🔟",
+	":keys:", "",
 	":kimono:", "👘",
 	":kiss:", "💋",
 	":kissing:", "😗",
@@ -11172,6 +11179,7 @@ var emojiPaddedReplacer = strings.NewReplacer(
 	":jp:", "🇯🇵 ",
 	":key:", "🔑 ",
 	":keycap_ten:", "🔟 ",
+	":keys:", " ",
 	":kimono:", "👘 ",
 	":kiss:", "💋 ",
 	":kissing:", "😗 ",
