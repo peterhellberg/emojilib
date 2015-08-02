@@ -58,6 +58,11 @@ func main() {
 	)
 
 	for n, _ := range emojis {
+		// Skip the keys
+		if n == "keys" {
+			continue
+		}
+
 		emojiNames = append(emojiNames, n)
 	}
 

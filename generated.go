@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2015-08-02 11:24:30 +0000
+// Generated at: 2015-08-02 11:31:51 +0000
 
 package emojilib
 
@@ -2088,11 +2088,6 @@ var emojis = Emojis{
 		Keywords: []string{"numbers", "10", "blue-square"},
 		Char:     "🔟",
 		Category: "objectsandsymbols",
-	},
-	"keys": Emoji{
-		Keywords: []string{},
-		Char:     "",
-		Category: "",
 	},
 	"kimono": Emoji{
 		Keywords: []string{"dress", "fashion", "women", "female", "japanese"},
@@ -10313,7 +10308,6 @@ var emojiReplacer = strings.NewReplacer(
 	":jp:", "🇯🇵",
 	":key:", "🔑",
 	":keycap_ten:", "🔟",
-	":keys:", "",
 	":kimono:", "👘",
 	":kiss:", "💋",
 	":kissing:", "😗",
@@ -11179,7 +11173,6 @@ var emojiPaddedReplacer = strings.NewReplacer(
 	":jp:", "🇯🇵 ",
 	":key:", "🔑 ",
 	":keycap_ten:", "🔟 ",
-	":keys:", " ",
 	":kimono:", "👘 ",
 	":kiss:", "💋 ",
 	":kissing:", "😗 ",
