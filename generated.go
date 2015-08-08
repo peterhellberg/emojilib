@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2015-08-02 11:31:51 +0000
+// Generated at: 2015-08-08 13:12:56 +0000
 
 package emojilib
 
@@ -4190,7 +4190,7 @@ var emojis = Emojis{
 		Category: "nature",
 	},
 	"wheelchair": Emoji{
-		Keywords: []string{"blue-square", "disabled"},
+		Keywords: []string{"blue-square", "disabled", "a11y", "accessibility"},
 		Char:     "♿",
 		Category: "objectsandsymbols",
 	},
@@ -4406,11 +4406,17 @@ var keywordLookup = map[string][]string{
 	"USA": []string{
 		"earth_americas",
 	},
+	"a11y": []string{
+		"wheelchair",
+	},
 	"above": []string{
 		"up",
 	},
 	"accept": []string{
 		"+1",
+	},
+	"accessibility": []string{
+		"wheelchair",
 	},
 	"accessories": []string{
 		"eyeglasses",
