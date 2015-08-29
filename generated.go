@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2015-08-08 13:12:56 +0000
+// Generated at: 2015-08-29 12:17:27 +0000
 
 package emojilib
 
@@ -1665,7 +1665,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"globe_with_meridians": Emoji{
-		Keywords: []string{"earth", "international", "world", "internet", "interweb"},
+		Keywords: []string{"earth", "international", "world", "internet", "interweb", "i18n"},
 		Char:     "🌐",
 		Category: "nature",
 	},
@@ -4300,7 +4300,7 @@ var emojis = Emojis{
 		Category: "travelandplaces",
 	},
 	"yum": Emoji{
-		Keywords: []string{"happy", "joy", "tongue", "smile", "face", "silly"},
+		Keywords: []string{"happy", "joy", "tongue", "smile", "face", "silly", "yummy"},
 		Char:     "😋",
 		Category: "people",
 	},
@@ -6835,6 +6835,9 @@ var keywordLookup = map[string][]string{
 	},
 	"hurt": []string{
 		"goberserk",
+	},
+	"i18n": []string{
+		"globe_with_meridians",
 	},
 	"icon": []string{
 		"black_large_square",
@@ -9869,6 +9872,9 @@ var keywordLookup = map[string][]string{
 		"+1",
 		"accept",
 		"ok",
+	},
+	"yummy": []string{
+		"yum",
 	},
 	"zodiac": []string{
 		"aquarius",
