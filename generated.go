@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2015-08-29 12:17:27 +0000
+// Generated at: 2015-10-26 12:42:13 +0000
 
 package emojilib
 
@@ -245,7 +245,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"athletic_shoe": Emoji{
-		Keywords: []string{"shoes", "sports"},
+		Keywords: []string{"shoes", "sports", "sneakers"},
 		Char:     "👟",
 		Category: "objectsandsymbols",
 	},
@@ -500,7 +500,7 @@ var emojis = Emojis{
 		Category: "travelandplaces",
 	},
 	"bomb": Emoji{
-		Keywords: []string{"boom", "explode", "explosion"},
+		Keywords: []string{"boom", "explode", "explosion", "terrorism"},
 		Char:     "💣",
 		Category: "objectsandsymbols",
 	},
@@ -700,7 +700,7 @@ var emojis = Emojis{
 		Category: "nature",
 	},
 	"cd": Emoji{
-		Keywords: []string{"technology", "dvd", "disk", "disc"},
+		Keywords: []string{"technology", "dvd", "disk", "disc", "90s"},
 		Char:     "💿",
 		Category: "objectsandsymbols",
 	},
@@ -1395,7 +1395,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"eyeglasses": Emoji{
-		Keywords: []string{"fashion", "accessories", "eyesight", "nerd", "dork"},
+		Keywords: []string{"fashion", "accessories", "eyesight", "nerd", "dork", "geek"},
 		Char:     "👓",
 		Category: "objectsandsymbols",
 	},
@@ -1525,7 +1525,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"floppy_disk": Emoji{
-		Keywords: []string{"oldschool", "technology", "save", "90s"},
+		Keywords: []string{"oldschool", "technology", "save", "90s", "80s"},
 		Char:     "💾",
 		Category: "objectsandsymbols",
 	},
@@ -1895,7 +1895,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"high_heel": Emoji{
-		Keywords: []string{"fashion", "shoes", "female", "pumps"},
+		Keywords: []string{"fashion", "shoes", "female", "pumps", "stiletto"},
 		Char:     "👠",
 		Category: "objectsandsymbols",
 	},
@@ -2410,7 +2410,7 @@ var emojis = Emojis{
 		Category: "travelandplaces",
 	},
 	"minidisc": Emoji{
-		Keywords: []string{"technology", "record", "data", "disk"},
+		Keywords: []string{"technology", "record", "data", "disk", "90s"},
 		Char:     "💽",
 		Category: "objectsandsymbols",
 	},
@@ -2805,7 +2805,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"pager": Emoji{
-		Keywords: []string{"bbcall", "oldschool"},
+		Keywords: []string{"bbcall", "oldschool", "90s"},
 		Char:     "📟",
 		Category: "objectsandsymbols",
 	},
@@ -2915,7 +2915,7 @@ var emojis = Emojis{
 		Category: "nature",
 	},
 	"pill": Emoji{
-		Keywords: []string{"health", "medicine", "doctor", "pharmacy"},
+		Keywords: []string{"health", "medicine", "doctor", "pharmacy", "drug"},
 		Char:     "💊",
 		Category: "objectsandsymbols",
 	},
@@ -3280,7 +3280,7 @@ var emojis = Emojis{
 		Category: "foodanddrink",
 	},
 	"sandal": Emoji{
-		Keywords: []string{"shoes", "fashion"},
+		Keywords: []string{"shoes", "fashion", "flip flops"},
 		Char:     "👡",
 		Category: "objectsandsymbols",
 	},
@@ -3385,7 +3385,7 @@ var emojis = Emojis{
 		Category: "_custom",
 	},
 	"shirt": Emoji{
-		Keywords: []string{"fashion", "cloth", "casual", "tshirt"},
+		Keywords: []string{"fashion", "cloth", "casual", "tshirt", "tee"},
 		Char:     "👕",
 		Category: "objectsandsymbols",
 	},
@@ -3490,7 +3490,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"smoking": Emoji{
-		Keywords: []string{"kills", "tobacco", "cigarette"},
+		Keywords: []string{"kills", "tobacco", "cigarette", "joint"},
 		Char:     "🚬",
 		Category: "objectsandsymbols",
 	},
@@ -3830,7 +3830,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"toilet": Emoji{
-		Keywords: []string{"restroom", "wc", "washroom", "bathroom"},
+		Keywords: []string{"restroom", "wc", "washroom", "bathroom", "potty"},
 		Char:     "🚽",
 		Category: "objectsandsymbols",
 	},
@@ -4363,13 +4363,17 @@ var keywordLookup = map[string][]string{
 		"eight",
 	},
 	"80s": []string{
+		"floppy_disk",
 		"vhs",
 	},
 	"9": []string{
 		"nine",
 	},
 	"90s": []string{
+		"cd",
 		"floppy_disk",
+		"minidisc",
+		"pager",
 		"vhs",
 	},
 	"911": []string{
@@ -5841,6 +5845,9 @@ var keywordLookup = map[string][]string{
 	"drizzle": []string{
 		"closed_umbrella",
 	},
+	"drug": []string{
+		"pill",
+	},
 	"drugs": []string{
 		"syringe",
 	},
@@ -6286,6 +6293,9 @@ var keywordLookup = map[string][]string{
 		"airplane",
 		"seat",
 	},
+	"flip flops": []string{
+		"sandal",
+	},
 	"flipper": []string{
 		"dolphin",
 	},
@@ -6481,6 +6491,9 @@ var keywordLookup = map[string][]string{
 	},
 	"gb": []string{
 		"guardsman",
+	},
+	"geek": []string{
+		"eyeglasses",
 	},
 	"gem": []string{
 		"diamond_shape_with_a_dot_inside",
@@ -7014,6 +7027,9 @@ var keywordLookup = map[string][]string{
 	},
 	"join": []string{
 		"u5408",
+	},
+	"joint": []string{
+		"smoking",
 	},
 	"joy": []string{
 		"blush",
@@ -8206,6 +8222,9 @@ var keywordLookup = map[string][]string{
 	"postal": []string{
 		"email",
 	},
+	"potty": []string{
+		"toilet",
+	},
 	"power": []string{
 		"battery",
 		"electric_plug",
@@ -8879,6 +8898,9 @@ var keywordLookup = map[string][]string{
 		"fries",
 		"lollipop",
 	},
+	"sneakers": []string{
+		"athletic_shoe",
+	},
 	"sniff": []string{
 		"nose",
 	},
@@ -9055,6 +9077,9 @@ var keywordLookup = map[string][]string{
 	"sterling": []string{
 		"pound",
 	},
+	"stiletto": []string{
+		"high_heel",
+	},
 	"stone": []string{
 		"moyai",
 		"white_large_square",
@@ -9228,6 +9253,9 @@ var keywordLookup = map[string][]string{
 		"telephone_receiver",
 		"tv",
 	},
+	"tee": []string{
+		"shirt",
+	},
 	"teenager": []string{
 		"boy",
 		"girl",
@@ -9243,6 +9271,9 @@ var keywordLookup = map[string][]string{
 	},
 	"terrified": []string{
 		"fearful",
+	},
+	"terrorism": []string{
+		"bomb",
 	},
 	"test": []string{
 		"100",
