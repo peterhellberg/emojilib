@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2015-10-26 12:42:13 +0000
+// Generated at: 2015-11-13 14:27:30 +0000
 
 package emojilib
 
@@ -2525,7 +2525,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"nail_care": Emoji{
-		Keywords: []string{"beauty", "manicure", "fashion"},
+		Keywords: []string{"beauty", "manicure", "finger", "fashion"},
 		Char:     "💅",
 		Category: "people",
 	},
@@ -6229,6 +6229,7 @@ var keywordLookup = map[string][]string{
 	},
 	"finger": []string{
 		"fu",
+		"nail_care",
 	},
 	"fingers": []string{
 		"fist",
