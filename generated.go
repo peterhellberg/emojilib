@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2015-11-13 14:27:30 +0000
+// Generated at: 2015-12-04 12:04:59 +0000
 
 package emojilib
 
@@ -715,7 +715,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"chart_with_upwards_trend": Emoji{
-		Keywords: []string{"graph", "presenetation", "stats", "recovery", "business", "economics", "money", "sales", "good", "success"},
+		Keywords: []string{"graph", "presentation", "stats", "recovery", "business", "economics", "money", "sales", "good", "success"},
 		Char:     "📈",
 		Category: "objectsandsymbols",
 	},
@@ -8242,9 +8242,6 @@ var keywordLookup = map[string][]string{
 	"prc": []string{
 		"cn",
 	},
-	"presenetation": []string{
-		"chart_with_upwards_trend",
-	},
 	"present": []string{
 		"gift",
 	},
@@ -8252,6 +8249,7 @@ var keywordLookup = map[string][]string{
 		"bar_chart",
 		"chart",
 		"chart_with_downwards_trend",
+		"chart_with_upwards_trend",
 		"part_alternation_mark",
 	},
 	"press": []string{
