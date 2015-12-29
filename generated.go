@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2015-12-04 12:04:59 +0000
+// Generated at: 2015-12-29 10:51:13 +0000
 
 package emojilib
 
@@ -230,7 +230,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"art": Emoji{
-		Keywords: []string{"design", "paint", "draw"},
+		Keywords: []string{"design", "paint", "draw", "colors"},
 		Char:     "🎨",
 		Category: "activity",
 	},
@@ -5397,6 +5397,9 @@ var keywordLookup = map[string][]string{
 	},
 	"collision": []string{
 		"boom",
+	},
+	"colors": []string{
+		"art",
 	},
 	"communication": []string{
 		"e-mail",
