@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2015-12-29 10:51:13 +0000
+// Generated at: 2016-01-05 19:03:54 +0000
 
 package emojilib
 
@@ -1845,7 +1845,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"heavy_check_mark": Emoji{
-		Keywords: []string{"ok", "nike"},
+		Keywords: []string{"ok", "nike", "answer"},
 		Char:     "✔️",
 		Category: "objectsandsymbols",
 	},
@@ -4195,7 +4195,7 @@ var emojis = Emojis{
 		Category: "objectsandsymbols",
 	},
 	"white_check_mark": Emoji{
-		Keywords: []string{"green-square", "ok", "agree", "vote", "election"},
+		Keywords: []string{"green-square", "ok", "agree", "vote", "election", "answer"},
 		Char:     "✅",
 		Category: "objectsandsymbols",
 	},
@@ -4621,6 +4621,10 @@ var keywordLookup = map[string][]string{
 	},
 	"annoyed": []string{
 		"angry",
+	},
+	"answer": []string{
+		"heavy_check_mark",
+		"white_check_mark",
 	},
 	"appetizer": []string{
 		"fried_shrimp",
