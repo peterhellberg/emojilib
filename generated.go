@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2016-01-05 19:03:54 +0000
+// Generated at: 2016-01-26 08:56:03 +0000
 
 package emojilib
 
@@ -3500,7 +3500,7 @@ var emojis = Emojis{
 		Category: "nature",
 	},
 	"snake": Emoji{
-		Keywords: []string{"animal", "evil", "nature", "hiss"},
+		Keywords: []string{"animal", "evil", "nature", "hiss", "python"},
 		Char:     "🐍",
 		Category: "nature",
 	},
@@ -8344,6 +8344,9 @@ var keywordLookup = map[string][]string{
 		"taurus",
 		"virgo",
 		"womens",
+	},
+	"python": []string{
+		"snake",
 	},
 	"queen": []string{
 		"princess",
