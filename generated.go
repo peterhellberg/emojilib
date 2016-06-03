@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2016-04-26 11:43:53 +0000
+// Generated at: 2016-06-03 11:38:14 +0000
 
 package emojilib
 
@@ -1640,7 +1640,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"dango": Emoji{
-		Keywords: []string{"food", "barbecue", "meat"},
+		Keywords: []string{"food", "dessert", "sweet", "japanese"},
 		Char:     "🍡",
 		Category: "food_and_drink",
 	},
@@ -5635,7 +5635,7 @@ var emojis = Emojis{
 		Category: "animals_and_nature",
 	},
 	"tangerine": Emoji{
-		Keywords: []string{"food", "fruit", "nature"},
+		Keywords: []string{"food", "fruit", "nature", "orange"},
 		Char:     "🍊",
 		Category: "food_and_drink",
 	},
@@ -7331,9 +7331,6 @@ var keywordLookup = map[string][]string{
 	"barbados": []string{
 		"bb",
 	},
-	"barbecue": []string{
-		"dango",
-	},
 	"barbuda": []string{
 		"ag",
 	},
@@ -8772,6 +8769,7 @@ var keywordLookup = map[string][]string{
 		"chocolate_bar",
 		"cookie",
 		"custard",
+		"dango",
 		"doughnut",
 		"ice_cream",
 		"icecream",
@@ -10752,6 +10750,7 @@ var keywordLookup = map[string][]string{
 		"bento",
 		"congratulations",
 		"crossed_flags",
+		"dango",
 		"dolls",
 		"flags",
 		"japan",
@@ -11412,7 +11411,6 @@ var keywordLookup = map[string][]string{
 		"smirk",
 	},
 	"meat": []string{
-		"dango",
 		"hamburger",
 		"poultry_leg",
 		"stew",
@@ -12249,6 +12247,9 @@ var keywordLookup = map[string][]string{
 	},
 	"opening hours": []string{
 		"u55b6",
+	},
+	"orange": []string{
+		"tangerine",
 	},
 	"orange-circle": []string{
 		"accept",
@@ -13945,6 +13946,7 @@ var keywordLookup = map[string][]string{
 		"candy",
 		"chocolate_bar",
 		"cookie",
+		"dango",
 		"doughnut",
 		"honey_pot",
 		"lollipop",
