@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2016-06-03 11:38:14 +0000
+// Generated at: 2016-07-04 09:06:00 +0000
 
 package emojilib
 
@@ -1115,7 +1115,7 @@ var emojis = Emojis{
 		Category: "flags",
 	},
 	"chipmunk": Emoji{
-		Keywords: []string{"animal", "nature", "rodent"},
+		Keywords: []string{"animal", "nature", "rodent", "squirrel"},
 		Char:     "🐿",
 		Category: "animals_and_nature",
 	},
@@ -1410,12 +1410,12 @@ var emojis = Emojis{
 		Category: "objects",
 	},
 	"confounded": Emoji{
-		Keywords: []string{"face", "confused", "sick", "unwell", "oops"},
+		Keywords: []string{"face", "confused", "sick", "unwell", "oops", ":S"},
 		Char:     "😖",
 		Category: "people",
 	},
 	"confused": Emoji{
-		Keywords: []string{"face", "indifference", "huh", "weird", "hmmm"},
+		Keywords: []string{"face", "indifference", "huh", "weird", "hmmm", ":/"},
 		Char:     "😕",
 		Category: "people",
 	},
@@ -2555,7 +2555,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"grin": Emoji{
-		Keywords: []string{"face", "happy", "smile", "joy"},
+		Keywords: []string{"face", "happy", "smile", "joy", "kawaii"},
 		Char:     "😁",
 		Category: "people",
 	},
@@ -4200,7 +4200,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"open_mouth": Emoji{
-		Keywords: []string{"face", "surprise", "impressed", "wow"},
+		Keywords: []string{"face", "surprise", "impressed", "wow", ":O"},
 		Char:     "😮",
 		Category: "people",
 	},
@@ -5205,7 +5205,7 @@ var emojis = Emojis{
 		Category: "symbols",
 	},
 	"smile": Emoji{
-		Keywords: []string{"face", "happy", "joy", "funny", "haha", "laugh", "like", ":D"},
+		Keywords: []string{"face", "happy", "joy", "funny", "haha", "laugh", "like", ":D", ":)"},
 		Char:     "😄",
 		Category: "people",
 	},
@@ -5215,7 +5215,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"smiley": Emoji{
-		Keywords: []string{"face", "happy", "joy", "haha", ":D"},
+		Keywords: []string{"face", "happy", "joy", "haha", ":D", ":)"},
 		Char:     "😃",
 		Category: "people",
 	},
@@ -6385,7 +6385,7 @@ var emojis = Emojis{
 		Category: "food_and_drink",
 	},
 	"wink": Emoji{
-		Keywords: []string{"face", "happy", "mischievous", "secret"},
+		Keywords: []string{"face", "happy", "mischievous", "secret", ";)"},
 		Char:     "😉",
 		Category: "people",
 	},
@@ -6585,13 +6585,29 @@ var keywordLookup = map[string][]string{
 		"disappointed",
 		"worried",
 	},
+	":)": []string{
+		"smile",
+		"smiley",
+	},
+	":/": []string{
+		"confused",
+	},
 	":D": []string{
 		"grinning",
 		"smile",
 		"smiley",
 	},
+	":O": []string{
+		"open_mouth",
+	},
+	":S": []string{
+		"confounded",
+	},
 	":|": []string{
 		"neutral_face",
+	},
+	";)": []string{
+		"wink",
 	},
 	"ISS": []string{
 		"artificial_satellite",
@@ -10848,6 +10864,9 @@ var keywordLookup = map[string][]string{
 		"koko",
 		"sa",
 	},
+	"kawaii": []string{
+		"grin",
+	},
 	"kazakhstan": []string{
 		"kz",
 	},
@@ -13730,6 +13749,7 @@ var keywordLookup = map[string][]string{
 	},
 	"squirrel": []string{
 		"chestnut",
+		"chipmunk",
 		"shipit",
 	},
 	"sri": []string{
