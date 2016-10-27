@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2016-10-25 14:12:04 +0000
+// Generated at: 2016-10-27 16:59:23 +0000
 
 package emojilib
 
@@ -605,7 +605,7 @@ var emojis = Emojis{
 		Category: "animals_and_nature",
 	},
 	"birthday": Emoji{
-		Keywords: []string{"food", "dessert"},
+		Keywords: []string{"food", "dessert", "cake"},
 		Char:     "🎂",
 		Category: "food_and_drink",
 	},
@@ -980,7 +980,7 @@ var emojis = Emojis{
 		Category: "objects",
 	},
 	"candy": Emoji{
-		Keywords: []string{"snack", "dessert", "sweet"},
+		Keywords: []string{"snack", "dessert", "sweet", "lolly"},
 		Char:     "🍬",
 		Category: "food_and_drink",
 	},
@@ -1020,7 +1020,7 @@ var emojis = Emojis{
 		Category: "travel_and_places",
 	},
 	"cat": Emoji{
-		Keywords: []string{"animal", "meow", "nature", "pet"},
+		Keywords: []string{"animal", "meow", "nature", "pet", "kitten"},
 		Char:     "🐱",
 		Category: "animals_and_nature",
 	},
@@ -2820,7 +2820,7 @@ var emojis = Emojis{
 		Category: "food_and_drink",
 	},
 	"hot_pepper": Emoji{
-		Keywords: []string{"food", "spicy"},
+		Keywords: []string{"food", "spicy", "chilli", "chili"},
 		Char:     "🌶",
 		Category: "food_and_drink",
 	},
@@ -4255,7 +4255,7 @@ var emojis = Emojis{
 		Category: "objects",
 	},
 	"palm_tree": Emoji{
-		Keywords: []string{"plant", "vegetable", "nature", "summer", "beach", "mojito"},
+		Keywords: []string{"plant", "vegetable", "nature", "summer", "beach", "mojito", "tropical"},
 		Char:     "🌴",
 		Category: "animals_and_nature",
 	},
@@ -4600,7 +4600,7 @@ var emojis = Emojis{
 		Category: "symbols",
 	},
 	"rabbit": Emoji{
-		Keywords: []string{"animal", "nature", "pet", "spring", "magic"},
+		Keywords: []string{"animal", "nature", "pet", "spring", "magic", "bunny"},
 		Char:     "🐰",
 		Category: "animals_and_nature",
 	},
@@ -4795,7 +4795,7 @@ var emojis = Emojis{
 		Category: "symbols",
 	},
 	"ring": Emoji{
-		Keywords: []string{"wedding", "propose", "marriage", "valentines", "diamond", "fashion", "jewelry", "gem"},
+		Keywords: []string{"wedding", "propose", "marriage", "valentines", "diamond", "fashion", "jewelry", "gem", "engagement"},
 		Char:     "💍",
 		Category: "people",
 	},
@@ -4950,7 +4950,7 @@ var emojis = Emojis{
 		Category: "travel_and_places",
 	},
 	"school_satchel": Emoji{
-		Keywords: []string{"student", "education", "bag"},
+		Keywords: []string{"student", "education", "bag", "backpack"},
 		Char:     "🎒",
 		Category: "people",
 	},
@@ -7048,6 +7048,9 @@ var keywordLookup = map[string][]string{
 		"arrow_left",
 		"leftwards_arrow_with_hook",
 	},
+	"backpack": []string{
+		"school_satchel",
+	},
 	"backward": []string{
 		"black_left_pointing_double_triangle_with_vertical_bar",
 	},
@@ -7771,6 +7774,7 @@ var keywordLookup = map[string][]string{
 	},
 	"bunny": []string{
 		"dancers",
+		"rabbit",
 	},
 	"bureau": []string{
 		"office",
@@ -7828,6 +7832,9 @@ var keywordLookup = map[string][]string{
 	},
 	"caicos": []string{
 		"tc",
+	},
+	"cake": []string{
+		"birthday",
 	},
 	"calculate": []string{
 		"straight_ruler",
@@ -8032,8 +8039,14 @@ var keywordLookup = map[string][]string{
 		"family_women_girl_boy",
 		"family_women_girls",
 	},
+	"chili": []string{
+		"hot_pepper",
+	},
 	"chill": []string{
 		"couch_and_lamp",
+	},
+	"chilli": []string{
+		"hot_pepper",
 	},
 	"chime": []string{
 		"bell",
@@ -9184,6 +9197,9 @@ var keywordLookup = map[string][]string{
 		"cop",
 		"oncoming_police_car",
 		"police_car",
+	},
+	"engagement": []string{
+		"ring",
 	},
 	"england": []string{
 		"gb",
@@ -10957,6 +10973,9 @@ var keywordLookup = map[string][]string{
 		"hocho",
 		"honey_pot",
 	},
+	"kitten": []string{
+		"cat",
+	},
 	"kitts": []string{
 		"kn",
 	},
@@ -11249,6 +11268,9 @@ var keywordLookup = map[string][]string{
 	},
 	"lol": []string{
 		"laughing",
+	},
+	"lolly": []string{
+		"candy",
 	},
 	"londoneye": []string{
 		"ferris_wheel",
@@ -14453,6 +14475,7 @@ var keywordLookup = map[string][]string{
 	},
 	"tropical": []string{
 		"desert_island",
+		"palm_tree",
 	},
 	"tshirt": []string{
 		"shirt",
