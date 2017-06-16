@@ -10,7 +10,7 @@ func TestFind(t *testing.T) {
 	}{
 		{"unknown", "", ErrUnknownEmoji},
 		{"green_heart", "💚", nil},
-		{"bee", "🐝", nil},
+		{"honeybee", "🐝", nil},
 		{"scream", "😱", nil},
 		{"rocket", "🚀", nil},
 	} {
