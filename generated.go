@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2017-06-16 16:34:02 +0000
+// Generated at: 2017-10-03 10:25:51 +0000
 
 package emojilib
 
@@ -105,7 +105,7 @@ var emojis = Emojis{
 		Category: "flags",
 	},
 	"alembic": Emoji{
-		Keywords: []string{"distilling", "science", "experiment"},
+		Keywords: []string{"distilling", "science", "experiment", "chemistry"},
 		Char:     "⚗",
 		Category: "objects",
 	},
@@ -355,7 +355,7 @@ var emojis = Emojis{
 		Category: "symbols",
 	},
 	"atom_symbol": Emoji{
-		Keywords: []string{"science"},
+		Keywords: []string{"science", "physics", "chemistry"},
 		Char:     "⚛",
 		Category: "symbols",
 	},
@@ -855,7 +855,7 @@ var emojis = Emojis{
 		Category: "travel_and_places",
 	},
 	"briefcase": Emoji{
-		Keywords: []string{"business", "documents", "work", "law", "legal"},
+		Keywords: []string{"business", "documents", "work", "law", "legal", "job", "career"},
 		Char:     "💼",
 		Category: "people",
 	},
@@ -1455,7 +1455,7 @@ var emojis = Emojis{
 		Category: "food_and_drink",
 	},
 	"coffin": Emoji{
-		Keywords: []string{"vampire", "dead", "die", "death", "rip", "graveyard", "cemetery"},
+		Keywords: []string{"vampire", "dead", "die", "death", "rip", "graveyard", "cemetery", "casket", "funeral", "box"},
 		Char:     "⚰",
 		Category: "objects",
 	},
@@ -1755,7 +1755,7 @@ var emojis = Emojis{
 		Category: "symbols",
 	},
 	"cyclone": Emoji{
-		Keywords: []string{"weather", "swirl", "blue", "cloud", "vortex", "spiral", "whirlpool", "spin"},
+		Keywords: []string{"weather", "swirl", "blue", "cloud", "vortex", "spiral", "whirlpool", "spin", "tornado", "hurricane", "typhoon"},
 		Char:     "🌀",
 		Category: "symbols",
 	},
@@ -2435,7 +2435,7 @@ var emojis = Emojis{
 		Category: "animals_and_nature",
 	},
 	"fish_cake": Emoji{
-		Keywords: []string{"food", "japan", "sea", "beach"},
+		Keywords: []string{"food", "japan", "sea", "beach", "narutomaki", "pink", "swirl", "kamaboko", "surimi", "ramen"},
 		Char:     "🍥",
 		Category: "food_and_drink",
 	},
@@ -3825,7 +3825,7 @@ var emojis = Emojis{
 		Category: "activity",
 	},
 	"man_mechanic": Emoji{
-		Keywords: []string{"plumber", "man", "human"},
+		Keywords: []string{"plumber", "man", "human", "wrench"},
 		Char:     "👨‍🔧",
 		Category: "people",
 	},
@@ -3875,7 +3875,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"man_technologist": Emoji{
-		Keywords: []string{"coder", "developer", "engineer", "programmer", "software", "man", "human"},
+		Keywords: []string{"coder", "developer", "engineer", "programmer", "software", "man", "human", "laptop", "computer"},
 		Char:     "👨‍💻",
 		Category: "people",
 	},
@@ -4525,7 +4525,7 @@ var emojis = Emojis{
 		Category: "symbols",
 	},
 	"ok_hand": Emoji{
-		Keywords: []string{"fingers", "limbs", "perfect", "ok"},
+		Keywords: []string{"fingers", "limbs", "perfect", "ok", "okay"},
 		Char:     "👌",
 		Category: "people",
 	},
@@ -4805,7 +4805,7 @@ var emojis = Emojis{
 		Category: "animals_and_nature",
 	},
 	"pensive": Emoji{
-		Keywords: []string{"face", "sad", "depressed", "okay", "upset"},
+		Keywords: []string{"face", "sad", "depressed", "upset"},
 		Char:     "😔",
 		Category: "people",
 	},
@@ -5685,12 +5685,12 @@ var emojis = Emojis{
 		Category: "activity",
 	},
 	"skull": Emoji{
-		Keywords: []string{"dead", "skeleton", "creepy"},
+		Keywords: []string{"dead", "skeleton", "creepy", "death"},
 		Char:     "💀",
 		Category: "people",
 	},
 	"skull_and_crossbones": Emoji{
-		Keywords: []string{"poison", "danger", "deadly", "scary"},
+		Keywords: []string{"poison", "danger", "deadly", "scary", "death", "pirate", "evil"},
 		Char:     "☠",
 		Category: "objects",
 	},
@@ -6310,7 +6310,7 @@ var emojis = Emojis{
 		Category: "objects",
 	},
 	"telescope": Emoji{
-		Keywords: []string{"stars", "space", "zoom"},
+		Keywords: []string{"stars", "space", "zoom", "science", "astronomy"},
 		Char:     "🔭",
 		Category: "objects",
 	},
@@ -7085,7 +7085,7 @@ var emojis = Emojis{
 		Category: "activity",
 	},
 	"woman_mechanic": Emoji{
-		Keywords: []string{"plumber", "woman", "human"},
+		Keywords: []string{"plumber", "woman", "human", "wrench"},
 		Char:     "👩‍🔧",
 		Category: "people",
 	},
@@ -7135,7 +7135,7 @@ var emojis = Emojis{
 		Category: "people",
 	},
 	"woman_technologist": Emoji{
-		Keywords: []string{"coder", "developer", "engineer", "programmer", "software", "woman", "human"},
+		Keywords: []string{"coder", "developer", "engineer", "programmer", "software", "woman", "human", "laptop", "computer"},
 		Char:     "👩‍💻",
 		Category: "people",
 	},
@@ -7753,6 +7753,9 @@ var keywordLookup = map[string][]string{
 		"scorpius",
 		"taurus",
 		"virgo",
+	},
+	"astronomy": []string{
+		"telescope",
 	},
 	"at": []string{
 		"austria",
@@ -8458,6 +8461,7 @@ var keywordLookup = map[string][]string{
 	},
 	"box": []string{
 		"bento",
+		"coffin",
 		"package",
 	},
 	"boy": []string{
@@ -8725,6 +8729,9 @@ var keywordLookup = map[string][]string{
 		"hearts",
 		"spades",
 	},
+	"career": []string{
+		"briefcase",
+	},
 	"carnival": []string{
 		"carousel_horse",
 		"circus_tent",
@@ -8753,6 +8760,9 @@ var keywordLookup = map[string][]string{
 	},
 	"casino": []string{
 		"slot_machine",
+	},
+	"casket": []string{
+		"coffin",
 	},
 	"casserole": []string{
 		"shallow_pan_of_food",
@@ -8851,6 +8861,10 @@ var keywordLookup = map[string][]string{
 	"chemist": []string{
 		"man_scientist",
 		"woman_scientist",
+	},
+	"chemistry": []string{
+		"alembic",
+		"atom_symbol",
 	},
 	"chicken": []string{
 		"baby_chick",
@@ -9110,7 +9124,9 @@ var keywordLookup = map[string][]string{
 	},
 	"computer": []string{
 		"keyboard",
+		"man_technologist",
 		"robot",
+		"woman_technologist",
 	},
 	"computing": []string{
 		"desktop_computer",
@@ -9631,6 +9647,8 @@ var keywordLookup = map[string][]string{
 	"death": []string{
 		"coffin",
 		"funeral_urn",
+		"skull",
+		"skull_and_crossbones",
 	},
 	"december": []string{
 		"christmas_tree",
@@ -10201,6 +10219,7 @@ var keywordLookup = map[string][]string{
 	"evil": []string{
 		"black_heart",
 		"japanese_goblin",
+		"skull_and_crossbones",
 		"snake",
 	},
 	"evil_eye": []string{
@@ -11064,6 +11083,9 @@ var keywordLookup = map[string][]string{
 		"man_dancing",
 		"roller_coaster",
 	},
+	"funeral": []string{
+		"coffin",
+	},
 	"funny": []string{
 		"smile",
 		"smiley",
@@ -11776,6 +11798,9 @@ var keywordLookup = map[string][]string{
 	"hundred": []string{
 		"100",
 	},
+	"hurricane": []string{
+		"cyclone",
+	},
 	"hurt": []string{
 		"face_with_head_bandage",
 		"goberserk",
@@ -12066,6 +12091,9 @@ var keywordLookup = map[string][]string{
 	"jo": []string{
 		"jordan",
 	},
+	"job": []string{
+		"briefcase",
+	},
 	"join": []string{
 		"u5408",
 	},
@@ -12098,6 +12126,9 @@ var keywordLookup = map[string][]string{
 	"justice": []string{
 		"man_judge",
 		"woman_judge",
+	},
+	"kamaboko": []string{
+		"fish_cake",
 	},
 	"kanji": []string{
 		"accept",
@@ -12245,6 +12276,8 @@ var keywordLookup = map[string][]string{
 	},
 	"laptop": []string{
 		"computer",
+		"man_technologist",
+		"woman_technologist",
 	},
 	"late": []string{
 		"clock1",
@@ -13048,6 +13081,9 @@ var keywordLookup = map[string][]string{
 	"nap": []string{
 		"sleepy",
 	},
+	"narutomaki": []string{
+		"fish_cake",
+	},
 	"nation": []string{
 		"afghanistan",
 		"aland_islands",
@@ -13638,7 +13674,7 @@ var keywordLookup = map[string][]string{
 		"white_check_mark",
 	},
 	"okay": []string{
-		"pensive",
+		"ok_hand",
 	},
 	"old": []string{
 		"older_man",
@@ -13984,6 +14020,9 @@ var keywordLookup = map[string][]string{
 		"man_scientist",
 		"woman_scientist",
 	},
+	"physics": []string{
+		"atom_symbol",
+	},
 	"piano": []string{
 		"musical_keyboard",
 	},
@@ -14009,6 +14048,7 @@ var keywordLookup = map[string][]string{
 		"ping_pong",
 	},
 	"pink": []string{
+		"fish_cake",
 		"heartbeat",
 		"heartpulse",
 		"ok_woman",
@@ -14022,6 +14062,7 @@ var keywordLookup = map[string][]string{
 	},
 	"pirate": []string{
 		"black_flag",
+		"skull_and_crossbones",
 	},
 	"pistol": []string{
 		"gun",
@@ -14362,6 +14403,9 @@ var keywordLookup = map[string][]string{
 	},
 	"raised": []string{
 		"raised_back_of_hand",
+	},
+	"ramen": []string{
+		"fish_cake",
 	},
 	"rancher": []string{
 		"man_farmer",
@@ -14749,6 +14793,7 @@ var keywordLookup = map[string][]string{
 		"alembic",
 		"atom_symbol",
 		"microscope",
+		"telescope",
 	},
 	"score": []string{
 		"100",
@@ -15546,6 +15591,9 @@ var keywordLookup = map[string][]string{
 	"surgery": []string{
 		"hospital",
 	},
+	"surimi": []string{
+		"fish_cake",
+	},
 	"surprise": []string{
 		"bangbang",
 		"exclamation",
@@ -15584,6 +15632,7 @@ var keywordLookup = map[string][]string{
 	},
 	"swirl": []string{
 		"cyclone",
+		"fish_cake",
 	},
 	"sword": []string{
 		"person_fencing",
@@ -15876,6 +15925,9 @@ var keywordLookup = map[string][]string{
 		"arrow_up_small",
 		"small_red_triangle",
 	},
+	"tornado": []string{
+		"cyclone",
+	},
 	"tortoise": []string{
 		"turtle",
 	},
@@ -16037,6 +16089,9 @@ var keywordLookup = map[string][]string{
 	},
 	"type": []string{
 		"keyboard",
+	},
+	"typhoon": []string{
+		"cyclone",
 	},
 	"ua": []string{
 		"ukraine",
@@ -16599,6 +16654,10 @@ var keywordLookup = map[string][]string{
 		"exclamation",
 		"grey_exclamation",
 		"open_mouth",
+	},
+	"wrench": []string{
+		"man_mechanic",
+		"woman_mechanic",
 	},
 	"wrestlers": []string{
 		"men_wrestling",
