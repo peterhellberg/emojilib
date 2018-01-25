@@ -6,3 +6,7 @@ go:
   - 1.6.4
 
 sudo: false
+
+script:
+  - go vet ./...
+  - go test ./...
