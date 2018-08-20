@@ -2,7 +2,7 @@
 //
 // Update it by running: go generate
 //
-// Generated at: 2018-02-13 09:53:45 +0000
+// Generated at: 2018-08-20 09:01:38 +0000
 
 package emojilib
 
@@ -1310,7 +1310,7 @@ var emojis = Emojis{
 		Category: "activity",
 	},
 	"clinking_glasses": Emoji{
-		Keywords: []string{"beverage", "drink", "party", "alcohol", "celebrate", "cheers"},
+		Keywords: []string{"beverage", "drink", "party", "alcohol", "celebrate", "cheers", "wine", "champagne", "toast"},
 		Char:     "🥂",
 		Category: "food_and_drink",
 	},
@@ -6905,7 +6905,7 @@ var emojis = Emojis{
 		Category: "animals_and_nature",
 	},
 	"unamused": Emoji{
-		Keywords: []string{"indifference", "bored", "straight face", "serious", "sarcasm"},
+		Keywords: []string{"indifference", "bored", "straight face", "serious", "sarcasm", "unimpressed", "skeptical", "dubious", "side_eye"},
 		Char:     "😒",
 		Category: "people",
 	},
@@ -9133,6 +9133,9 @@ var keywordLookup = map[string][]string{
 	"chadder": []string{
 		"cheese",
 	},
+	"champagne": []string{
+		"clinking_glasses",
+	},
 	"characters": []string{
 		"symbols",
 	},
@@ -10328,6 +10331,9 @@ var keywordLookup = map[string][]string{
 		"sake",
 		"tumbler_glass",
 		"wine_glass",
+	},
+	"dubious": []string{
+		"unamused",
 	},
 	"dusk": []string{
 		"clock6",
@@ -15511,6 +15517,9 @@ var keywordLookup = map[string][]string{
 		"tired_face",
 		"vomiting",
 	},
+	"side_eye": []string{
+		"unamused",
+	},
 	"sideways": []string{
 		"left_right_arrow",
 	},
@@ -15581,6 +15590,9 @@ var keywordLookup = map[string][]string{
 	},
 	"skeleton": []string{
 		"skull",
+	},
+	"skeptical": []string{
+		"unamused",
 	},
 	"sketch": []string{
 		"straight_ruler",
@@ -16425,6 +16437,7 @@ var keywordLookup = map[string][]string{
 	},
 	"toast": []string{
 		"bread",
+		"clinking_glasses",
 	},
 	"tobacco": []string{
 		"smoking",
@@ -16689,6 +16702,9 @@ var keywordLookup = map[string][]string{
 	},
 	"unicorn_face": []string{
 		"rainbow",
+	},
+	"unimpressed": []string{
+		"unamused",
 	},
 	"union": []string{
 		"eu",
@@ -17086,6 +17102,7 @@ var keywordLookup = map[string][]string{
 	},
 	"wine": []string{
 		"champagne",
+		"clinking_glasses",
 		"grapes",
 		"sake",
 	},
