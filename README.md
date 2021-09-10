@@ -32,7 +32,7 @@ func main() {
 $ go generate
 ```
 
-This will download the latest version of [emojis.json](https://raw.githubusercontent.com/muan/emojilib/master/emojis.json)
+This will download the latest version of [emojis.json](https://raw.githubusercontent.com/muan/emojilib/main/dist/emoji-en-US.json)
 and generate a new version of `generated.go`
 
 _You’ll need to have the [golang.org/x/tools/imports](https://golang.org/x/tools/imports) package installed in order to run the generator._
